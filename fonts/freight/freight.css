@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Freight';
+    src: url('Freight-TextLightSC.woff2') format('woff2'),
+        url('Freight-TextLightSC.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Freight';
+    src: url('Freight-DispBlack.woff2') format('woff2'),
+        url('Freight-DispBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Freight';
+    src: url('Freight-DispBook.woff2') format('woff2'),
+        url('Freight-DispBook.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Freight';
+    src: url('Freight-DispLight.woff2') format('woff2'),
+        url('Freight-DispLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Freight';
+    src: url('Freight-TextLightItalic.woff2') format('woff2'),
+        url('Freight-TextLightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Freight';
+    src: url('Freight-DispBookItalic.woff2') format('woff2'),
+        url('Freight-DispBookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Freight';
+    src: url('Freight-DispMediumSC.woff2') format('woff2'),
+        url('Freight-DispMediumSC.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Freight';
+    src: url('Freight-TextMedium.woff2') format('woff2'),
+        url('Freight-TextMedium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Freight';
+    src: url('Freight-TextMediumItalic.woff2') format('woff2'),
+        url('Freight-TextMediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
