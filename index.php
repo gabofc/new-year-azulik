@@ -90,7 +90,7 @@
 							<img src="images/nido-azulik.png">
 						</div>
 						<div class="mitad right">
-							<a href="#" class="boton">RESERVE A TABLE</a>
+							<a href="#" class="boton">RESERVE NOW</a>
 							<span>Reservation exclusive to Azulik Tulum</span>
 						</div>
 					</div>
@@ -125,7 +125,7 @@
 							<img src="images/cuisine.png">
 						</div>
 						<div class="mitad right">
-							<a href="#" class="boton">RESERVE A TABLE</a>
+							<a href="#" class="boton">RESERVE NOW</a>
 							<span>Reservation exclusive to Azulik Uh May</span>
 						</div>
 					</div>

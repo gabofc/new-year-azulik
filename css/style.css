@@ -142,9 +142,9 @@ section { width: 100%; position: relative; }
 	min-width: 60%;
 	text-align: left;
 	font-family: "Gotham";
+	font-weight: 500;
 	font-size: 16px;
 	text-transform: uppercase;
-	font-weight: normal;
 	color: #6f83f3;
 }
 .filaTabla.head a, .mobilePics a {
