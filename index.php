@@ -26,7 +26,7 @@
 			<div class="overlay"></div>
 			<div class="container">
 				<img src="images/logo.png">
-				<a href="#">BOOK NOW</a>
+				<!-- <a href="#">BOOK NOW</a> -->
 			</div>
 		</header>
 		<main>
