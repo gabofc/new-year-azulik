@@ -1,4 +1,7 @@
 <?php
+	$http = ( isset( $_SERVER[ 'HTTPS' ] ) ) ? 'https' : 'http';
+	$url = $http . '://' . $_SERVER[ 'HTTP_HOST' ] . $_SERVER[ 'REQUEST_URI' ];
+	$base = $http . '://' . $_SERVER[ 'HTTP_HOST' ];
 	function isMobile() {
 	    return preg_match("/(android|avantgo|blackberry|bolt|boost|cricket|docomo|fone|hiptop|mini|mobi|palm|phone|pie|tablet|up\.browser|up\.link|webos|wos)/i", $_SERVER["HTTP_USER_AGENT"]);
 	}
@@ -9,11 +12,11 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>AZULIK - New Year</title>
 		<meta name="viewport" content="width=device-width">
-		<meta name="description" content="">
-		<meta name="keywords" content="">
-		<meta property="og:title" content="" />
-        <meta property="og:description" content="" />
-        <meta property="og:image" content="images/logo.png" />
+		<meta name="description" content="Let the wafting air bring our SPIRIT TOGETHER to rejoice as we prepare to welcome this new year.">
+		<meta property="og:title" content="New Year Azulik" />
+        <meta property="og:description" content="Let the wafting air bring our SPIRIT TOGETHER to rejoice as we prepare to welcome this new year." />
+        <meta property="og:image" content="<?php echo $base; ?>/images/nido-azulik.png" />
+        <link rel="canonical" href="<?php echo $url; ?>" />
 		<link rel="shortcut icon" href="images/icono.svg" />
 		<link href="css/style.css?v=<?php echo time(); ?>" rel="stylesheet" />
 		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
