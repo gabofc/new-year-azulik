@@ -32,7 +32,7 @@
 		<main>
 			<h1>Azulik</h1>
 			<section id="home">
-				<video playsinline autoplay loop muted>
+				<video playsinline autoplay muted>
 				<?php if ( !isMobile() ) : ?>
 					<source src="images/header.mp4" type="video/mp4">
 				<?php else: ?>
@@ -44,7 +44,11 @@
 				<h3>INHALE CELEBRATION. <span>Exhale creation</span></h3>
 				<img src="images/inspireText.jpg" class="titleImg">
 				<div class="imageText">
-					<img src="images/inspire.png">
+					<?php if ( !isMobile() ) : ?>
+						<img src="images/inspire.png">
+					<?php else: ?>
+						<img src="images/inspire-mobile.png">
+					<?php endif; ?>
 					<div class="info">
 						<p>Let the wafting air</p>
 						<p>bring our SPIRIT TOGETHER</p>
@@ -100,7 +104,7 @@
 						<a href="descargables/program.pdf" download>Download Program</a>
 					</div>
 				</div>
-				<video playsinline autoplay loop muted>
+				<video playsinline autoplay muted>
 				<?php if ( !isMobile() ) : ?>
 					<source src="images/agenda.mp4" type="video/mp4">
 				<?php else: ?>
