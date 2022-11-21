@@ -62,8 +62,8 @@
 				<div class="container">
 					<div class="filaTabla head">
 						<h2>TULUM AGENDA</h2>
-						<a href="descargables/menu.pdf" download>Download Menu</a>
-						<a href="descargables/program.pdf" download>Download Program</a>
+						<a href="assets/menu.pdf" download>Download Menu</a>
+						<a href="assets/program.pdf" download>Download Program</a>
 					</div>
 					<div class="filaTabla">
 						<div>
@@ -94,14 +94,14 @@
 							<img src="images/nido-azulik.png">
 						</div>
 						<div class="mitad right">
-							<a href="#" class="boton">RESERVE NOW</a>
+							<a href="https://nye-2023-azulik-tulum.eventbrite.com.mx/" target="_blank" class="boton">RESERVE NOW</a>
 							<span>Reservation exclusive to Azulik Tulum</span>
 						</div>
 					</div>
 					<div class="mobilePics">
 						<img src="images/nido-azulik-mobile.png">
-						<a href="descargables/menu.pdf" download>Download Menu</a><br><br><br>
-						<a href="descargables/program.pdf" download>Download Program</a>
+						<a href="assets/menu.pdf" download>Download Menu</a><br><br><br>
+						<a href="assets/program.pdf" download>Download Program</a>
 					</div>
 				</div>
 				<video playsinline autoplay muted>
@@ -114,7 +114,7 @@
 				<div class="container">
 					<div class="filaTabla head">
 						<h2>UH MAY AGENDA</h2>
-						<a href="descargables/menu.pdf" download>Download Menu</a>
+						<a href="assets/menu.pdf" download>Download Menu</a>
 					</div>
 					<div class="filaTabla">
 						<div>
@@ -149,4 +149,3 @@
 		<script src="js/script.js?v=<?php echo time(); ?>"></script>
 	</body>
 </html>
-
