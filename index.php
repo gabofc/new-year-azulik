@@ -62,7 +62,7 @@
 				<div class="container">
 					<div class="filaTabla head">
 						<h2>TULUM AGENDA</h2>
-						<a href="assets/menu.pdf" download>Download Menu</a>
+						<a href="assets/menu-tulum.pdf" download>Download Menu</a>
 						<a href="assets/program.pdf" download>Download Program</a>
 					</div>
 					<div class="filaTabla">
@@ -100,7 +100,7 @@
 					</div>
 					<div class="mobilePics">
 						<img src="images/nido-azulik-mobile.png">
-						<a href="assets/menu.pdf" download>Download Menu</a><br><br><br>
+						<a href="assets/menu-tulum.pdf" download>Download Menu</a><br><br><br>
 						<a href="assets/program.pdf" download>Download Program</a>
 					</div>
 				</div>
@@ -114,7 +114,7 @@
 				<div class="container">
 					<div class="filaTabla head">
 						<h2>UH MAY AGENDA</h2>
-						<a href="assets/menu.pdf" download>Download Menu</a>
+						<a href="assets/menu-uh-may.pdf" download>Download Menu</a>
 					</div>
 					<div class="filaTabla">
 						<div>
@@ -135,7 +135,7 @@
 					</div>
 					<div class="mobilePics">
 						<img src="images/cuisine-mobile.png">
-						<a href="descargables/menu.pdf" download>Download Menu</a>
+						<a href="descargables/menu-uh-may.pdf" download>Download Menu</a>
 					</div>
 				</div>
 			</section>
