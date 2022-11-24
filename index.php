@@ -129,7 +129,7 @@
 							<img src="images/cuisine.png">
 						</div>
 						<div class="mitad right">
-							<a href="#" class="boton">RESERVE NOW</a>
+							<a href="https://nye-2023-azulik-uhmay.eventbrite.com.mx/" target="_blank" class="boton">RESERVE NOW</a>
 							<span>Reservation exclusive to Azulik Uh May</span>
 						</div>
 					</div>
@@ -145,6 +145,7 @@
 		</main>
 		<footer>
 			<img src="images/icono.svg">
+			<p>Queries/Concierges: <a href="mailto:hostess@tulum.azulik.com">hostess@tulum.azulik.com</a></p>
 		</footer>
 		<script src="js/script.js?v=<?php echo time(); ?>"></script>
 	</body>
