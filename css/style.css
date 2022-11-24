@@ -219,6 +219,12 @@ footer {
 	color: #fff;
 	line-height: 1.5;
 	padding: 35px 0;
+	font-family: 'Gotham';
+	font-size:12px;
+}
+a{
+	color:#FFF;
+	text-decoration:none;
 }
 @media screen and ( max-width: 1150px ) {
 	.container { padding: 0 15px }
