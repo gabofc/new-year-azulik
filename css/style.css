@@ -93,15 +93,18 @@ section { width: 100%; position: relative; }
 }
 .boton:hover { background-color: #fff; color: #6f83f3; }
 #inspire h3 {
+	line-height: 25px;
 	font-style: italic;
 	font-size: 20px;
 	letter-spacing: 0.5px;
 	margin: 35px 0 27px;
+	color: #FCF7F7;
+	font-weight: normal;
 }
 #inspire h3 span {
 	display: block;
 	text-align: center;
-	color: #6f83f3;
+	color: #6F83F3;
 }
 #inspire h2 {
 	letter-spacing: 20px;
@@ -137,12 +140,13 @@ section { width: 100%; position: relative; }
 	padding: 40px 0;
 	box-sizing: border-box;
 }
+.filaTabla.noBorde { border-bottom: none; }
 .filaTabla.head { border-bottom: none; padding: 10px 0; }
 .filaTabla.head h2 {
 	min-width: 60%;
 	text-align: left;
 	font-family: "Gotham";
-	font-weight: 500;
+	font-weight: normal;
 	font-size: 16px;
 	text-transform: uppercase;
 	color: #6f83f3;
@@ -150,7 +154,7 @@ section { width: 100%; position: relative; }
 .filaTabla.head a, .mobilePics a {
 	font-size: 22px;
 	font-style: italic;
-	font-weight: 500;
+	font-weight: normal;
 	letter-spacing: 0.55px;
 	padding: 8px;
 	color: #fff;
@@ -162,6 +166,7 @@ section { width: 100%; position: relative; }
 	min-width: 250px;
 	font-size: 25px;
 	color: #726f6f;
+	letter-spacing: 0px;
 }
 .filaTabla div b {
 	display: block;
@@ -198,17 +203,27 @@ section { width: 100%; position: relative; }
 	text-align: left;
 	box-sizing: border-box;
 }
-#agenda .dFlex .mitad.right { padding-left: 8%; }
-#agenda .dFlex .mitad .boton { margin: 25px 0; }
-#agenda .dFlex .mitad span {
-	display: block;
-	font-size: 25px;
-	font-style: italic;
-	color: #707070;
-	text-align: left;
+#agenda .dFlex .mitad.right { padding-left: 8%; text-align: center; }
+#agenda .dFlex .mitad .boton { margin: 70px auto; }
+.dFlexLogos {
+	width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
 }
+.locationButton {
+	display: block;
+	width: 55px;
+	height: 55px;
+	margin: 0 auto;
+	background-image: url( '../images/location.svg' );
+	background-position: center center;
+	background-size: contain;
+}
+.locationButton:hover { background-image: url( '../images/location-hover.svg' ); }
 #message { padding: 50px 0; }
-#message h2 { font-size: 25px; letter-spacing: 0.25px; color: #707070; font-style: italic; }
+#message h2 { font-size: 25px; letter-spacing: 0.25px; color: #707070; font-style: italic; font-weight: normal; }
 #message h2 b { color: #fff; }
 .pcPics { display: block; }
 .mobilePics { display: none; text-align: left; }
@@ -234,8 +249,8 @@ a{
 	#agenda .dFlex { display: block; }
 	#agenda .dFlex .mitad { min-width: initial; width: 100%; text-align: center; }
 	#agenda .dFlex .mitad span { text-align: center; }
-	#agenda .dFlex .mitad .boton { margin: 20px auto; }
 	#agenda .dFlex .mitad.right { padding-left: 0; }
+	#agenda .dFlex .mitad.pcPics img { margin-bottom: 50px; }
 }
 @media screen and ( max-width: 920px ) {
 	#inspire .info { margin: -60px 0 25px; }
@@ -252,6 +267,7 @@ a{
 	.mobilePics { display: block; }
 	.mobilePics a { margin-bottom: 30px; }
 	.mobilePics img { width: 100%; height: auto; margin-bottom: 50px; }
+	#message { padding: 50px; box-sizing: border-box; }
 	#message h2 { font-size: 22px; letter-spacing: 0.22px; }
 	header .container a { font-size: 9px; right: 20px }
 	header .container img { width: 150px; }
@@ -261,5 +277,7 @@ a{
 	#inspire .info { margin: -45px 0 25px; }
 }
 @media screen and ( max-width: 500px ) {
+	.dFlexLogos { width: 100%; display: block; text-align: center; }
+	.dFlexLogos img { display: block; margin: 45px auto; }
 	#inspire .info { margin: -15px 0 25px; }
 }

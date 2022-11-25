@@ -81,7 +81,7 @@
 						<h3>New Flights</h3>
 						<p>We begin the celebration of these changes of air, we gather to toast and begin with joy the year to come.</p>
 					</div>
-					<div class="filaTabla">
+					<div class="filaTabla noBorde">
 						<div>
 							DINNER Celebration
 							<b>9:00 pm to 2:00 am</b>
@@ -94,8 +94,9 @@
 							<img src="images/nido-azulik.png">
 						</div>
 						<div class="mitad right">
+							<img src="images/azulik-tulum.svg">
 							<a href="https://nye-2023-azulik-tulum.eventbrite.com.mx/" target="_blank" class="boton">RESERVE NOW</a>
-							<span>Reservation exclusive to Azulik Tulum</span>
+							<a href="https://goo.gl/maps/8CMYWHg3JhxX5qAGA" target="_blank" class="locationButton"></a>
 						</div>
 					</div>
 					<div class="mobilePics">
@@ -116,21 +117,25 @@
 						<h2>UH MAY AGENDA</h2>
 						<a href="assets/menu-uh-may.pdf" download>Download Menu</a>
 					</div>
-					<div class="filaTabla">
+					<div class="filaTabla noBorde">
 						<div>
 							DINNER Celebration
-							<b>9:00 pm to 2:00 am</b>
+							<b>8:00 pm to 1:00 am</b>
 						</div>
 						<h3>Winds of Change</h3>
-						<p>The ritual legacy of the four winds inspires this gastronomic journey through Mexican cuisine that, with moments designed to awaken a surprise, summons us to the pleasure of sharing and enjoying the new year.</p>
+						<p>We listen to the whisper of the sacred wind, we let it be the inspiration for this culinary experience that invites transformation, a celebration in which we gather to breathe fresh air and start the new year revitalized. </p>
 					</div>
 					<div class="dFlex">
 						<div class="mitad pcPics">
 							<img src="images/cuisine.png">
 						</div>
 						<div class="mitad right">
+							<div class="dFlexLogos">
+								<img src="images/uh-may.svg">
+								<img src="images/jungle-cuisine.svg">
+							</div>
 							<a href="https://nye-2023-azulik-uhmay.eventbrite.com.mx/" target="_blank" class="boton">RESERVE NOW</a>
-							<span>Reservation exclusive to Azulik Uh May</span>
+							<a href="https://g.page/azulik-uh-may?share" target="_blank" class="locationButton"></a>
 						</div>
 					</div>
 					<div class="mobilePics">
@@ -145,7 +150,7 @@
 		</main>
 		<footer>
 			<img src="images/icono.svg">
-			<p>Queries/Concierges: <a href="mailto:hostess@tulum.azulik.com">hostess@tulum.azulik.com</a></p>
+			<!-- <p>Queries/Concierges: <a href="mailto:hostess@tulum.azulik.com">hostess@tulum.azulik.com</a></p> -->
 		</footer>
 		<script src="js/script.js?v=<?php echo time(); ?>"></script>
 	</body>
