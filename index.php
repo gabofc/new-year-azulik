@@ -61,7 +61,7 @@
 			<section id="agenda">
 				<div class="container">
 					<div class="filaTabla head">
-						<h2>TULUM AGENDA</h2>
+						<h2>TULUM AGENDA - Dec 31st</h2>
 						<a href="assets/menu-tulum.pdf" download>Download Menu</a>
 						<a href="assets/program.pdf" download>Download Program</a>
 					</div>
@@ -114,7 +114,7 @@
 				</video>
 				<div class="container">
 					<div class="filaTabla head">
-						<h2>UH MAY AGENDA</h2>
+						<h2>UH MAY AGENDA - Dec 31st</h2>
 						<a href="assets/menu-uh-may.pdf" download>Download Menu</a>
 					</div>
 					<div class="filaTabla noBorde">
