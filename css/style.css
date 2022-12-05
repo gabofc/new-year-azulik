@@ -227,6 +227,7 @@ section { width: 100%; position: relative; }
 #message h2 b { color: #fff; }
 .pcPics { display: block; }
 .mobilePics { display: none; text-align: left; }
+.lineaBlue { height: 1px; width: 100%; background-color: #6f83f3; margin: 50px 0; }
 video { width: 100%; height: auto; margin: 0; }
 footer {
 	background-color: #19191a;

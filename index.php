@@ -114,6 +114,35 @@
 				</video>
 				<div class="container">
 					<div class="filaTabla head">
+						<h2></h2>
+						<a href="assets/menu-uh-may.pdf" download>Download Program</a>
+					</div>
+					<div class="filaTabla noBorde">
+						<div>
+							3-NIGHT STAY
+							<b>FROM DECEMBER 29<br>TO JANUARY 1, 2023</b>
+						</div>
+						<h3>Winds of Change</h3>
+						<p>Stay in a Villa at AZULIK Tulum, start the last day of the year watching the sunrise, continue with a full day of activities where we are grateful for the experiences we undergo, and prepare for the winds that come and the changes they bring. Spend the last sigh in the treetops with a dinner where we celebrate the new airs with bliss.</p>
+					</div>
+					<div class="dFlex">
+						<div class="mitad pcPics">
+							<img src="images/nido-tulum.jpg">
+						</div>
+						<div class="mitad right">
+							<img src="images/azulik-tulum.svg">
+							<a href="https://be.synxis.com/?Hotel=3481&Chain=23677&promo=NewYearsEve" target="_blank" class="boton">RESERVE NOW</a>
+							<a href="https://goo.gl/maps/8CMYWHg3JhxX5qAGA" target="_blank" class="locationButton"></a>
+						</div>
+					</div>
+					<div class="mobilePics">
+						<img src="images/nido-tulum-mobile.jpg">
+						<a href="assets/program.pdf" download>Download Program</a>
+					</div>
+					<div class="lineaBlue"></div>
+				</div>
+				<div class="container">
+					<div class="filaTabla head">
 						<h2>UH MAY AGENDA - Dec 31st</h2>
 						<a href="assets/menu-uh-may.pdf" download>Download Menu</a>
 					</div>
