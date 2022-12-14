@@ -20,6 +20,13 @@
 		<link rel="shortcut icon" href="images/icono.svg" />
 		<link href="css/style.css?v=<?php echo time(); ?>" rel="stylesheet" />
 		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-PRX75J7');</script>
+		<!-- End Google Tag Manager -->
 	</head>
 	<body>
 		<header>
@@ -182,5 +189,9 @@
 			<!-- <p>Queries/Concierges: <a href="mailto:hostess@tulum.azulik.com">hostess@tulum.azulik.com</a></p> -->
 		</footer>
 		<script src="js/script.js?v=<?php echo time(); ?>"></script>
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PRX75J7"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
 	</body>
 </html>
